@@ -1,0 +1,156 @@
+
+	*{
+			padding: 0;margin: 0;
+		}
+		
+		body{
+			background-image: linear-gradient(to right, rgba(251, 222, 255, 1),rgba(222, 226, 255, 1));
+			
+			opacity: 0;
+			transition: opacity  3s;
+		}
+		
+		
+		.welcome{
+		  width: 700px;
+		  height: 700px;
+		  position: relative;
+		  top: 350px;
+		  left: 135px;
+		  background: url(welcome.png);
+		  transform: scale(1.3);
+		  z-index: 1;
+		}
+		.wlcnotes{
+		  position: absolute;
+		  top: 1000px;
+		  left: 35px;
+		  font-family: wlc2;
+		  text-align: center;
+		  font-weight: 100;
+		  font-size: 35px;
+		  z-index: 1;
+		}
+		.wlcnotes h1,p{
+		  font-weight: 100;
+		  
+		}
+		.wlcnotes h1{
+		  margin-top: 15px;
+		}
+		.wlcnotes p{
+		  margin-top: 10px;
+		}
+	  #getstarted {
+	    width: 421px;
+	    height: 100px;
+	    border-radius: 50px;
+	    position: absolute;
+	    top: 1390px;
+	    left: 280px;
+	    background-image: linear-gradient(to right, rgba(189, 172, 255, 1),rgba(226, 172, 255, 1));
+	    box-shadow: 1px 1px 1px 1px;
+	    transition: all .25s ease-in-out;
+	    
+	  }
+	  #getstarted h1{
+	    font-size: 49px;
+	    position: absolute;
+	    top: 28.5px;
+	    left: 85px;
+	    font-family: wlc3;
+	  }
+	  #getstarted:active{
+	    transform: scale(.99);
+	    box-shadow: 0px 0px 0px 0px;
+	    
+	  }
+	  .harun1{
+	    width: 600px;
+	    height: 600px;
+	    border: 10px solid rgba(154, 17, 227, 1);
+	    border-radius: 100px 25px;
+	    position: absolute;
+	    left: 167px;
+	    top: 320px;
+	    opacity: 20%;
+	    z-index: 0;
+	    transform: rotate(0deg);
+	    animation: harun1 4s ease-in-out infinite;
+	  }
+	  @keyframes harun1{
+	    0%{
+	      transform: rotate(0deg);
+	      border-radius: 100px 25px;
+	    }
+	    50%{
+	      transform: rotate(360deg);
+	      border-radius: 100px 25px;
+	    }
+	    75%{
+	      transform: rotate(360deg);
+	      border-radius: 25px 100px;
+	    }
+	    100%{
+	      transform: rotate(360deg);
+	      border-radius: 100px 25px;
+	    }
+	  }
+	  .harun2{
+	    width: 600px;
+	    height: 600px;
+	    border: 10px solid rgba(255, 0, 135, 1);
+	    border-radius: 25px 100px;
+	    position: absolute;
+	    left: 167px;
+	    top: 320px;
+	    opacity: 20%;
+	    z-index: -1;
+	    transform: rotate(0deg);
+	    animation: harun2 4s ease-in-out infinite;
+	  }
+	  @keyframes harun2{
+	    0%{
+	      transform: rotate(0deg);
+	      border-radius: 25px 100px;
+	    }
+	    50%{
+	      transform: rotate(-360deg);
+	      border-radius: 25px 100px;
+	    }
+	    75%{
+	      transform: rotate(-360deg);
+	      border-radius: 100px 25px;
+	    }
+	    100%{
+	      transform: rotate(-360deg);
+	      border-radius: 25px 100px;
+	    }
+	  }
+	  .hi{
+	    width: 979px;
+	    height: 300px;
+	    background-color: palevioletred;
+	    position:relative;
+	    top: 250px;
+	    z-index: 0;
+	    opacity: 10%;
+	  }
+
+
+		@font-face {
+		  font-family: wlc;
+		  src: url(wlc.otf);
+		}
+		@font-face {
+		  font-family: wlc2;
+		  src: url(wlc2.ttf);
+		}
+		@font-face {
+		  font-family: wlc3;
+		  src: url(wlc3.ttf);
+		}
+		@font-face {
+		  font-family: wlc4;
+		  src: url(wlc4.ttf);
+		}
