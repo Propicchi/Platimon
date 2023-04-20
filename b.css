@@ -1,0 +1,146 @@
+	* {
+	  padding: 0;
+	  margin: 0;
+	}
+
+	body {
+	  background-image: linear-gradient(to right, rgba(251, 222, 255, 1), rgba(222, 226, 255, 1));
+
+	  opacity: 1;
+	  transition: opacity 3s;
+	}
+
+	  #pag2{
+	    animation: pag2 1.7s ease-in-out 0.0s;
+	    opacity: 1;
+	    transition: all .4s ease-in-out;
+	  }
+	  @keyframes pag2{
+	    from{
+	      opacity: 0;
+	    }
+	    to{
+	      opacity: 1;
+	    }
+	  }
+
+	  .allgames{
+	    position: absolute;
+	    top: 20px;
+	    left: 410px;
+	    border-bottom: 4px solid rgba(214, 184, 222, 1);
+	  }
+	  .allgames h1{
+	    font-family: wlc2;
+	    font-size: 30px;
+	  }
+
+/*---------- GAMES ZONE ------------*/
+#gamebox{
+  background-image: url(wall.png);
+  background-repeat: no-repeat;
+  width: 850px;
+  height: 1550px;
+ border-radius: 65px;
+ border: 7px solid black;
+  position: relative;
+  top: 115px;
+  left: 60px;
+}
+/*--------- First Line Games ---------*/
+
+#g1{
+  width: 130px;
+  height: 130px;
+  border-radius: 18px;
+  background-image: url(templerun.png);
+  position: absolute;
+  top: 90px;
+  left: 40px;
+}
+.g2 {
+  width: 130px;
+  height: 130px;
+  border-radius: 18px;
+  background-image: url(geometry.png);
+  position: absolute;
+  top: 90px;
+  left: 200px;
+}
+.g3{
+  width: 130px;
+  height: 130px;
+  border-radius: 18px;
+  background-image: url(totalhero.png);
+  position: absolute;
+  top: 90px;
+  left: 360px;
+}
+.g4 {
+  width: 130px;
+  height: 130px;
+  border-radius: 18px;
+  background-image: url(squid.png);
+  position: absolute;
+  top: 90px;
+  left: 520px;
+}
+.g5 {
+  width: 130px;
+  height: 130px;
+  border-radius: 18px;
+  background-image: url(destroy.png);
+  position: absolute;
+  top: 90px;
+  left: 680px;
+}
+/*----- FIRST LINE GAME FINISH ------*/
+
+
+
+
+
+#bck{
+  width: 130px;
+  height: 130px;
+  background-color: #54A7D8;
+  border-radius: 50%;
+  position: absolute;
+  left: 415px;
+  top: 1515px;
+}
+.phncam{
+  position: absolute;
+  width: 239px;
+  height: 45px;
+  background-color: #0D1037;
+  border-radius: 50px;
+  top: 135px;
+  left: 370px;
+}
+#screenoff{
+  width: 10px;
+  height: 199px;
+  background-color: #291E1E;
+  border-radius: 50px;
+  position: absolute;
+  top: 345px;
+  left: 920px;
+}
+
+		@font-face {
+		  font-family: wlc;
+		  src: url(wlc.otf);
+		}
+		@font-face {
+		  font-family: wlc2;
+		  src: url(wlc2.ttf);
+		}
+		@font-face {
+		  font-family: wlc3;
+		  src: url(wlc3.ttf);
+		}
+		@font-face {
+		  font-family: wlc4;
+		  src: url(wlc4.ttf);
+		}
