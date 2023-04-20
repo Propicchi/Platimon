@@ -38,5 +38,7 @@ function upd(){
   }
   else if(answer === 'no' || answer === 'No'){
     alert('Patience !!');
+    else{
+      alert('Patience !!');
   }
 }
