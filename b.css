@@ -144,3 +144,334 @@
 		  font-family: wlc4;
 		  src: url(wlc4.ttf);
 		}
+@media screen and (max-width: 767px){
+
+	* {	  padding: 0;
+
+	  margin: 0;
+
+	}
+
+	body {
+
+	  background-image: linear-gradient(to right, rgba(251, 222, 255, 1), rgba(222, 226, 255, 1));
+
+	  opacity: 1;
+
+	  transition: opacity 3s;
+
+	}
+
+	  #pag2{
+
+	    animation: pag2 1.7s ease-in-out 0.0s;
+
+	    opacity: 1;
+
+	    transition: all .4s ease-in-out;
+
+	  }
+
+	  @keyframes pag2{
+
+	    from{
+
+	      opacity: 0;
+
+	    }
+
+	    to{
+
+	      opacity: 1;
+
+	    }
+
+	  }
+
+	  .allgames{
+
+	    position: absolute;
+
+	    top: 20px;
+
+	    left: 130px;
+
+	    border-bottom: 4px solid rgba(214, 184, 222, 1);
+
+	  }
+
+	  .allgames h1{
+
+	    font-family: wlc2;
+
+	    font-size: 15px;
+
+	  }
+
+/*---------- GAMES ZONE ------------*/
+
+#gamebox{
+
+  background-image: url(wall1.png);
+
+  background-repeat: no-repeat;
+
+  background-color: #FFCBF0;
+
+  width: 320px;
+
+  height: 550px;
+
+  
+
+ border-radius: 25px;
+
+ border: 7px solid black;
+
+  position: relative;
+
+  top: 55px;
+
+  left: 15px;
+
+}
+
+/*--------- First Line Games ---------*/
+
+#g1{
+
+  width: 50px;
+
+  height: 50px;
+
+  border-radius: 14px;
+
+  background-image: url(templerun1.png);
+
+  position: absolute;
+
+  top: 34px;
+
+  left: 10px;
+
+}
+
+.g2 {
+
+  width: 50px;
+
+  height: 50px;
+
+  border-radius: 14px;
+
+  background-image: url(geometry1.png);
+
+  position: absolute;
+
+  top: 34px;
+
+  left: 75px;
+
+}
+
+.g3{
+
+  width: 50px;
+
+  height: 50px;
+
+  border-radius: 14px;
+
+  background-image: url(totalhero1.png);
+
+  position: absolute;
+
+  top: 34px;
+
+  left: 135px;
+
+}
+
+.g4 {
+
+  width: 50px;
+
+  height: 50px;
+
+  border-radius: 14px;
+
+  background-image: url(squid1.png);
+
+  position: absolute;
+
+  top: 34px;
+
+  left: 195px;
+
+}
+
+.g5 {
+
+  width: 50px;
+
+  height: 50px;
+
+  border-radius: 14px;
+
+  background-image: url(destroy1.png);
+
+  position: absolute;
+
+  top: 34px;
+
+  left: 255px;
+
+}
+
+/*----- FIRST LINE GAME FINISH ------*/
+
+#bck{
+
+  width: 50px;
+
+  height: 50px;
+
+  background-color: #83BAF9;
+
+  border: 2px solid #B9DAFF;
+
+  border-radius: 50%;
+
+  position: absolute;
+
+  left: 155px;
+
+  top: 555px;
+
+}
+
+.phncam{
+
+  position: absolute;
+
+  width: 100px;
+
+  height: 15px;
+
+  background-color: #0A042C;
+
+  border-radius: 50px;
+
+  top: 65px;
+
+  left: 128px;
+
+}
+
+#screenoff{
+
+  width: 5px;
+
+  height: 100px;
+
+  background-color: #291E1E;
+
+  border-radius: 50px;
+
+  position: absolute;
+
+  top: 128px;
+
+  left: 348px;
+
+}
+
+.circam{
+
+  position: absolute;
+
+  width: 11px;
+
+  height: 11px;
+
+  border-radius: 50%;
+
+  top: 66.5px;
+
+  left: 209px;
+
+  background-color: #212E66;
+
+  border-radius: 3px solid #253375;
+
+}
+
+.vup{
+
+  width: 4px;
+
+  height: 50px;
+
+  background-color: #291E1E;
+
+  border-radius: 50px;
+
+  position: absolute;
+
+  top: 128px;
+
+  left: 11.5px;
+
+}
+
+.vdwn {
+
+  width: 4px;
+
+  height: 50px;
+
+  background-color: #291E1E;
+
+  border-radius: 50px;
+
+  position: absolute;
+
+  top: 183px;
+
+  left: 11.5px;
+
+}
+
+		@font-face {
+
+		  font-family: wlc;
+
+		  src: url(wlc.otf);
+
+		}
+
+		@font-face {
+
+		  font-family: wlc2;
+
+		  src: url(wlc2.ttf);
+
+		}
+
+		@font-face {
+
+		  font-family: wlc3;
+
+		  src: url(wlc3.ttf);
+
+		}
+
+		@font-face {
+
+		  font-family: wlc4;
+
+		  src: url(wlc4.ttf);
+
+		}
+
+}
