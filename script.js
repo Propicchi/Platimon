@@ -42,3 +42,8 @@ function upd(){
       alert('Patience !!');
   }
 }
+  function realiphn() {
+
+  alert("Pay 1$ for Real Iphone >∆< !!")
+
+}
